@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+    float a,b,c,d,e,f,g,h,i,j;
+	printf("student 1 height : ");
+	scanf("%f",&a);
+	printf("student 2 height : ");
+	scanf("%f",&b);
+	printf("student 3 height : ");
+	scanf("%f",&c);
+	printf("student 4 height : ");
+	scanf("%f",&d);
+	printf("student 5 height : ");
+	scanf("%f",&e);
+	printf("student 6 height : ");
+	scanf("%f",&f);
+	printf("student 7 height : ");
+	scanf("%f",&g);
+	printf("student 8 height : ");
+	scanf("%f",&h);
+	printf("student 9 height : ");
+	scanf("%f",&i);
+	printf("student 10 height : ");
+	scanf("%f",&j); 
+	printf("height of all students : %.2f %.2f %.2f %.2f %.2f %.2f %.2f %.2f %.2f %.2f",a,b,c,d,e,f,g,h,i,j);
+	float sum,average;
+	sum=a+b+c+d+e+f+g+h+i+j;
+	average=sum/10;
+	printf("\naverage student heigth is %.2f",average);
+	return 0;
+}
