@@ -1,0 +1,22 @@
+#include<stdio.h>
+int fu(int a,int b)
+{
+	if(a>b)
+	{
+		printf("%d",a);
+	}
+	else
+	{
+		printf("%d",b);
+	}
+}
+
+int main()
+{
+	int num1,num2;
+	printf("Enter Number : ");
+	scanf("%d %d",&num1,&num2);
+	fu(num1,num2);
+	
+	return 0;
+}
