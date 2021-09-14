@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	char A[50];
+	char *p;
+	p = A;
+	scanf("%s",&A);
+	while(*p!='\0')
+	{
+	 p++;
+	 if(*p=='\0')
+         printf("Last character is %c",*(p-1));
+	}
+	return 0;
+}
