@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+float sqrt(float n)
+{
+	float a=n;
+	float b=1;
+	float c=0.000001;
+	while((a-b)>c)
+	{
+		a=(a+b)/2;   
+		b=n/a;
+	}
+	printf("%f",a);
+}
+
+int main()
+{
+	float n;
+	printf("Enter number : ");
+	scanf("%f",&n);
+	printf("Square root is : ");
+	sqrt(n);
+	return 0;
+}
+
+
